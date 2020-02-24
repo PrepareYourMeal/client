@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Collapse, Navbar, Nav, NavbarToggler } from 'reactstrap';
+import { Button, Collapse, Navbar, Nav, NavbarToggler } from 'reactstrap';
 import { Link, useLocation } from 'react-router-dom';
 import { DashBoard, Recipes, Planner, Ingredients } from '@frontend/components/Icons';
 import BrandLink from '../BrandLink';
+import LogInForm from '../LogInForm/LogInForm';
 import './NavBar.scss';
 
 const NavTab = ({ to, icon: Icon, text }) => {
@@ -28,12 +29,16 @@ NavTab.propTypes = {
 
 export default function NavBar() {
     const [navOpen, setNavOpen] = useState(false);
+    const [logInFormOpen, setLogInFormOpen] = useState(false);
 
     return (
         <>
             <Navbar className="justify-content-md-between" expand="md" tag="header" color="primary" dark>
                 <BrandLink />
                 <NavbarToggler onClick={() => setNavOpen(!navOpen)} />
+                <Button size="lg" onClick={() => setLogInFormOpen(!logInFormOpen)}>
+                    Sign In
+                </Button>
             </Navbar>
             <Navbar className="pt-0 pt-md-2" expand="md" color="light">
                 <Collapse className="my-md-2 justify-content-md-center" isOpen={navOpen} navbar>
@@ -45,6 +50,7 @@ export default function NavBar() {
                     </Nav>
                 </Collapse>
             </Navbar>
+            <LogInForm modalOpen={logInFormOpen} toggleModal={() => setLogInFormOpen(!logInFormOpen)} />
         </>
     );
 }
