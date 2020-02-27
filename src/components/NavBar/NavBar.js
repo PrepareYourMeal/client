@@ -4,7 +4,7 @@ import { Button, Collapse, Navbar, Nav, NavbarToggler } from 'reactstrap';
 import { Link, useLocation } from 'react-router-dom';
 import { DashBoard, Recipes, Planner, Ingredients } from '@frontend/components/Icons';
 import BrandLink from '../BrandLink';
-import LogInForm from '../LogInForm/LogInForm';
+import LogInForm from '../LogIn/LogInForm';
 import './NavBar.scss';
 
 const NavTab = ({ to, icon: Icon, text }) => {

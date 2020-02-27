@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Form, FormGroup, Input, Label, Modal, ModalHeader, ModalBody, Button } from 'reactstrap';
+import GoogleLoginBtn from './GoogleLoginBtn';
 
 export default function LogInForm({ modalOpen, toggleModal }) {
     const [formData, setFormData] = useState({ username: '', password: '' });
@@ -39,6 +40,8 @@ export default function LogInForm({ modalOpen, toggleModal }) {
                     </FormGroup>
                     <Button type="submit">Sign In</Button>
                 </Form>
+                <hr />
+                <GoogleLoginBtn />
             </ModalBody>
         </Modal>
     );
