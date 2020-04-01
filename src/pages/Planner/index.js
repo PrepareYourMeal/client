@@ -1,5 +1,6 @@
 import React from 'react';
+import DefaultPlanner from './Planner';
 
 export default function Planner() {
-    return <h1>Planner</h1>;
+    return <DefaultPlanner />;
 }

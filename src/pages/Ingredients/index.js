@@ -1,5 +1,6 @@
 import React from 'react';
+import DefaultIngredients from './Ingredients';
 
 export default function Ingredients() {
-    return <h1>Ingredients</h1>;
+    return <DefaultIngredients />;
 }

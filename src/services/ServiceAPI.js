@@ -1,15 +1,15 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://stoveandoven.appspot.com/';
-const googleAuth = '/auth/googletoken';
+const { REACT_APP_API_BASE_URL: API_BASE_URL } = process.env;
 const register = '/auth/register';
+const testLogin = '/auth/testlogin';
 
 const axiosInstance = axios.create({ baseURL: API_BASE_URL });
 
-export const postGoogleAuthWithTokens = async (accessToken, idToken) => {
+export const postGoogleAuthWithTokens = async accessToken => {
     let res;
     try {
-        res = await axiosInstance.post(googleAuth, { access_token: accessToken });
+        res = await axiosInstance.post(testLogin, { access_token: accessToken });
     } catch (err) {
         throw new Error(`In postGoogleAuthWithTokens: ${err}`);
     }
