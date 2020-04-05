@@ -1,0 +1,17 @@
+
+.recipe-card {
+
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: 0 !important;
+
+    h3 {
+        font-family: Arvo;
+        color: #606060;
+        border-bottom: 1px solid rgb(240, 75, 76);
+    }
+
+    &-body {
+        background-color: #E5E7E8;
+    }
+}

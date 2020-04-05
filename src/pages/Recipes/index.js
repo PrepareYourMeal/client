@@ -1,21 +1,9 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import {
-    Container,
-    Row,
-    Col,
-    Card,
-    CardBody,
-    CardImg,
-    CardText,
-    CardTitle,
-    CardDeck,
-    Collapse,
-    CardHeader,
-    CardFooter,
-    CardSubtitle,
-    Button,
-} from 'reactstrap';
+import { Container, Row, Col, CardDeck, Collapse, Button } from 'reactstrap';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchRecipes } from '@frontend/redux/actions';
+import RecipeCard from './RecipeCard';
 
 export default function Recipe() {
     //     // this.state = {
@@ -29,6 +17,13 @@ export default function Recipe() {
 
     //     this.onChangePage = this.onChangePage.bind(this);
     //     this.handleOnInputChange = this.handleOnInputChange.bind(this);
+    const recipes = useSelector(state => state.recipes);
+    const dispatch = useDispatch();
+    const [searchBarValue, setSearchBarValue] = useState('');
+
+    useEffect(() => {
+        dispatch(fetchRecipes());
+    }, []);
 
     return (
         <Container>
@@ -49,9 +44,14 @@ export default function Recipe() {
                 </Col>
             </Row>
 
-            <div className="isotope">
-                <div className="row">
-                    {[].map((recipe, index) => (
+            <Row>
+                {recipes.map(recipe => (
+                    <Col sm="12" md="3" key={recipe.spoon_id}>
+                        <RecipeCard recipe={recipe} />
+                    </Col>
+                ))}
+            </Row>
+            {/* {recipes.map((recipe, index) => (
                         <div className="col-3">
                             <div className="card">
                                 <div className="thumbnail-holder">
@@ -87,9 +87,7 @@ export default function Recipe() {
                                 </div>
                             </div>
                         </div>
-                    ))}
-                </div>
-            </div>
+                    ))} */}
         </Container>
     );
 }
