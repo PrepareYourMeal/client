@@ -2,9 +2,14 @@
 // find availabe styling variables here: https://getbootstrap.com/docs/4.1/getting-started/theming/#css-variables
 @import './typography';
 @import './colors';
+@import './legacyStyle';
 
 html {
     font-size: 62.5%;
+
+    body {
+        background-color: $light-grey;
+    }
 }
 
 // this line should be at the bottom of this file
