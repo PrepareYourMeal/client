@@ -1,3 +1,4 @@
+@import 'colors';
 
 .recipe-card {
 
@@ -14,4 +15,16 @@
     &-body {
         background-color: #E5E7E8;
     }
+
+    &-text {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #909090;
+    }
+}
+
+.recipes-serach-bar {
+    background-color: $light-grey !important;
+    color: #9E9E9E;
+    border: 1px solid #9E9E9E
 }
