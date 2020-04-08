@@ -20,6 +20,11 @@ import Footer from "./containers/footer";
 import BrowseRecipePage from './pages/browse-recipe-page';
 import RecipePage from './pages/recipe-page';
 import ContactPage from './pages/contact-page';
+import SignInPage from './pages/signup-page';
+import SignUpPage from './pages/signup-page';
+import DashboardPage from './pages/dashboard-page';
+import PlannerPage from './pages/planner-page';
+import ProfilePage from './pages/profile-page';
 
 function App() {
   return (
