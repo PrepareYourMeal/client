@@ -163,8 +163,6 @@ class HomePage extends Component {
         <RecipeCarousel recipes={carouselRecipes} />
         <div className="container" data-component="Main">
 
-</div>
-
           <RecipesListViewer 
             recipes={latestRecipes}
             listPageView={4} 
