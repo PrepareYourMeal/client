@@ -3,7 +3,8 @@ import axios from 'axios';
 const { REACT_APP_API_BASE_URL: API_BASE_URL } = process.env;
 const register = '/auth/register';
 const testLogin = '/auth/testlogin';
-const recipes = '/recipes';
+const login = '/auth/login';
+const recipes = '/api/recipes';
 
 const axiosInstance = axios.create({ baseURL: API_BASE_URL });
 
@@ -31,6 +32,17 @@ export const postRegisterNewAccount = async (username, password) => {
     }
 
     return Promise.resolve();
+};
+
+export const postLocalLogIn = async (username, password) => {
+    let res;
+    try {
+        res = await axiosInstance.post(login, { username, password });
+    } catch (err) {
+        throw new Error(`In postLocalLogIn: ${err}`);
+    }
+
+    return res.data;
 };
 
 export const getRecipes = async () => {

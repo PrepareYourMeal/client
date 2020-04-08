@@ -1,3 +1,10 @@
+.login-form-container {
+    border: 1px solid #9E9E9E;
+    border-radius: 0.5rem;
+    min-width: 50rem;
+    background-color: white;
+}
+
 .google-login-btn {
     font-size: 1rem !important;
     & > div {

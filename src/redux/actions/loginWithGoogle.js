@@ -1,4 +1,4 @@
-import { postGoogleAuthWithTokens } from '@frontend/services';
+// import { postGoogleAuthWithTokens } from '@frontend/services';
 import * as types from '../types';
 
 const loginWithGoogle = accessToken => async dispatch => {
@@ -6,16 +6,16 @@ const loginWithGoogle = accessToken => async dispatch => {
         throw new Error('Missing the param accessToken.');
     }
 
-    let logedInUser;
-    try {
-        logedInUser = await postGoogleAuthWithTokens(accessToken);
-    } catch (err) {
-        console.error(err);
-    }
+    // let logedInUser;
+    // try {
+    //     logedInUser = await postGoogleAuthWithTokens(accessToken);
+    // } catch (err) {
+    //     console.error(err);
+    // }
 
     dispatch({
         type: types.GOOGLE_AUTH,
-        user: logedInUser,
+        user: { accessToken },
     });
 
     return Promise.resolve();

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { Card, CardBody, CardImg, CardText, CardTitle, CardHeader, CardFooter, CardSubtitle } from 'reactstrap';
+import { Card, CardBody, CardImg, CardText, CardTitle } from 'reactstrap';
 import Icon from '@mdi/react';
 import { mdiTimer, mdiAccount, mdiStar } from '@mdi/js';
 import './recipeCard.scss';

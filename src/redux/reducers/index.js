@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import googleLoginReducer from './googleLoginReducer';
+import userAuthReducer from './userAuthReducer';
 import isLoadingReducer from './isLoadingReducer';
 import recipesReducers from './recipesReducer';
 
 export default combineReducers({
-    googleLoginReducer,
-    isLoadingReducer,
+    user: userAuthReducer,
+    isLoading: isLoadingReducer,
     recipes: recipesReducers,
 });
