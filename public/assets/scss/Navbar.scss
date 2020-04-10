@@ -1,0 +1,42 @@
+@import 'colors';
+
+.navtab {
+    min-height: 3.5rem;
+    min-width: 5rem;
+    color: $additional;
+    fill: $additional;
+    &:hover {
+        color: $primary;
+        fill: $primary;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    &.active {
+        color: $secondary;
+        fill: $secondary;
+    }
+}
+
+.signin-btn {
+    height: 4rem;
+    
+    svg {
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 100%;
+        width: auto;
+    }
+    
+    span {
+        font-size: 1.3rem;
+    }
+}
+
+.navbar-toggler {
+    height: 3rem;
+}

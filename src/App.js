@@ -20,6 +20,10 @@ import Footer from "./containers/footer";
 import BrowseRecipePage from './pages/browse-recipe-page';
 import RecipePage from './pages/recipe-page';
 import ContactPage from './pages/contact-page';
+<<<<<<< Updated upstream
+=======
+import "./assets/custom.css";
+>>>>>>> Stashed changes
 
 function App() {
   return (

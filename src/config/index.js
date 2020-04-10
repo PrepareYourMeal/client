@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 
 /*  Production Values  */
@@ -6,7 +7,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 /*  Dev values  */
 
-export const BASE_URL = "http://www.mocky.io/v2/";          //.. Dev
-
+export const BASE_URL = "https://stove-and-oven-stagging.herokuapp.com/api"; //.. Dev

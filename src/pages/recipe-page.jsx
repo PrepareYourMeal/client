@@ -213,7 +213,7 @@ class RecipePage extends Component {
                   <img
                     itemProp="image"
                     className="rsImg"
-                    src="assets/images/recipePhoto-03.jpg"
+                    src="https://spoonacular.com/recipeImages/814946-556x370.jpg"
                     alt
                   />
                 </div>
@@ -246,38 +246,7 @@ class RecipePage extends Component {
                   <IngredientsCheckList ingredients={ingredients} />
                   <RecipeDirectionsList directions={directions} />
                 </div>
-                <div className="clearfix" />
-                {/* Share Post */}
-                <ul className="share-post">
-                  <li>
-                    <a href="#" className="facebook-share">
-                      Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="twitter-share">
-                      Twitter
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="google-plus-share">
-                      Google Plus
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="pinterest-share">
-                      Pinterest
-                    </a>
-                  </li>
-                </ul>
-                <div className="clearfix" />
-
-                <div className="margin-bottom-40" />
-                <RecipesGridViewer
-                  recipes={relatedRecipes}
-                  sectionHeading="You May Also Like"
-                />
-
+              
                 <div className="clearfix" />
                 <div className="margin-top-15" />
                 {/* Comments */}

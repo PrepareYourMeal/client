@@ -14,7 +14,17 @@ class ContactPage extends Component {
               <div className="eight columns">
                 <h2>Contact</h2>
               </div>
-            
+              <div className="eight columns">
+                <nav id="breadcrumbs">
+                  <ul>
+                    <li>You are here:</li>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>Contact</li>
+                  </ul>
+                </nav>
+              </div>
             </div>
             {/* Container / End */}
           </section>
@@ -25,6 +35,7 @@ class ContactPage extends Component {
             <div className="sixteen columns">
               <div className="image-with-caption contact">
                 <img className="rsImg" src="assets/images/contact.jpg" alt />
+                <span>Contact me with any questions</span>
               </div>
             </div>
           </div>

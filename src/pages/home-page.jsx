@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import "../assets/login.css";
 import { hideLoader, showLoader } from "../redux/actions/loader-data";
-import { updateUserData } from "../redux/actions/user-data";
 import { Link } from 'react-router-dom';
 import RecipeCarousel from '../components/recipe-carousel';
 import CategoryList from '../components/category-list';
@@ -206,7 +205,7 @@ const mapDispatchToProps = dispatch => {
   return {
     showLoader: text => dispatch(showLoader(text)),
     hideLoader: () => dispatch(hideLoader()),
-    updateUserData: userData => dispatch(updateUserData(userData))
+    // updateUserData: userData => dispatch(updateUserData(userData))
   };
 };
 
