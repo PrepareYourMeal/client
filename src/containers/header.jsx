@@ -11,7 +11,7 @@ class Header extends Component {
           <div className="three columns">
             <div id="logo">
               <h1>
-                <a href="/#" onClick={e => e.preventDefault()}>
+                <a href="/">
                   <img src="assets/images/Logo.png" alt="StoveOven" />
                 </a>
               </h1>
