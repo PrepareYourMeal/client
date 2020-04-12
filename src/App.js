@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import { Provider } from 'react-redux';
 import { ToastsContainer, ToastsStore, ToastsContainerPosition } from 'react-toasts';
 import store from './redux';
-import HomePage from './pages/home-page';
-import FullPageLoader from './containers/full-page-loader';
-import Header from './containers/header';
-import Footer from './containers/footer';
-import BrowseRecipePage from './pages/browse-recipe-page';
-import RecipePage from './pages/recipe-page';
-import ContactPage from './pages/contact-page';
+import HomePage from './pages/HomePage';
+import FullPageLoader from './containers/FullPageLoader';
+import Header from './containers/Header';
+import Footer from './containers/Footer';
+import BrowseRecipePage from './pages/BrowseRecipePage';
+import RecipePage from './pages/RecipePage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
     return (
