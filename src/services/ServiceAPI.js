@@ -8,7 +8,7 @@ const recipes = '/api/recipes';
 
 const axiosInstance = axios.create({ baseURL: API_BASE_URL }); // this way we don't need to do `${API_BASE_URL}${apiEndPoint}` all the time
 
-export const postGoogleAuthWithTokens = async (accessToken) => {
+export const postGoogleAuthWithTokens = async accessToken => {
     let res;
     try {
         res = await axiosInstance.post(testLogin, { access_token: accessToken });
