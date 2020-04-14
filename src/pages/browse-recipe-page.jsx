@@ -147,12 +147,13 @@ class BrowseRecipePage extends Component {
     });
   };
 
+  //generate cat
   _generateCategories = recipes => {
     const categoryOptionsObject = {};
     for (
-      let recipeIndex = 0;
+      let recipeIndex = 0; //loop through
       recipeIndex < (recipes || []).length;
-      recipeIndex++
+      recipeIndex++ 
     ) {
       const recipe = recipes[recipeIndex];
       for (
