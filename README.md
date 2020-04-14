@@ -1,3 +1,7 @@
+## Deployment
+- Branch: [production](prepareyourmeal-client.prepareyourmeal.rasodu.com)
+- Branch: [master](prepareyourmeal-dev-client.prepareyourmeal.rasodu.com)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
