@@ -1,4 +1,4 @@
-import { postRegisterNewAccount } from '@frontend/services';
+import { postRegisterNewAccount } from '../../services';
 import * as types from '../types';
 
 const signUpLocal = (username, password) => async dispatch => {

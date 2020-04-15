@@ -1,4 +1,4 @@
-import { getRecipes } from '@frontend/services';
+import { getRecipes } from '../../services';
 import * as types from '../types';
 
 const fetchRecipes = () => async dispatch => {

@@ -30,7 +30,7 @@ class Header extends Component {
                                     <Link to="/contact">Contact</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Login</Link>
+                                    <Link to="/login">Login</Link>
                                 </li>
                             </ul>
                         </nav>

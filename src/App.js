@@ -10,6 +10,7 @@ import Footer from './containers/Footer';
 import BrowseRecipePage from './pages/BrowseRecipePage';
 import RecipePage from './pages/RecipePage';
 import ContactPage from './pages/ContactPage';
+import LoginPage from './pages/SignupPage';
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                         <Route exact path="/recipes" component={BrowseRecipePage} />
                         <Route exact path="/recipe" component={RecipePage} />
                         <Route exact path="/contact" component={ContactPage} />
+                        <Route exact path="/login" component={LoginPage} />
                         <Route path="*" render={() => <Redirect to="/home" />} />
                     </Switch>
                     <Footer />

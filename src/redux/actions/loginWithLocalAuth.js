@@ -1,4 +1,4 @@
-import { postLocalLogIn } from '@frontend/services';
+import { postLocalLogIn } from '../../services';
 import * as types from '../types';
 
 const loginWithLocalAuth = (username, password) => async dispatch => {

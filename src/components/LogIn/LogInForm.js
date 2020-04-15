@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
-import { loginWithLocalAuth } from '@frontend/redux/actions';
-import GoogleLoginBtn from './GoogleLoginBtn';
+import { loginWithLocalAuth } from '../../actions';
+import GoogleLoginBtn from '../GoogleLoginBtn';
 
 export default function LogInForm() {
     const dispatch = useDispatch();

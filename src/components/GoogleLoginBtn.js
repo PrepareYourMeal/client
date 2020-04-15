@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
-import { loginWithGoogle } from '@frontend/redux/actions';
-import './Login.scss';
+import { loginWithGoogle } from '../redux/actions';
+// import './Login.scss';
 
 export default function GoogleLoginBtn() {
     const dispatch = useDispatch();
