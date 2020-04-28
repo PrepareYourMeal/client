@@ -16,7 +16,7 @@ import ContactPage from "./pages/ContactPage";
 import DashboardPage from "./pages/DashboardPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import HomePage from "./pages/HomePage";
-import IngredientsPage from "./pages/IngredientssPage";
+import IngredientsPage from "./pages/IngredientsPage";
 import PlannerPage from "./pages/PlannerPage";
 import RecipePage from "./pages/RecipePage";
 import { persistor, store } from "./redux/store";
