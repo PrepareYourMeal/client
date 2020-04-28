@@ -21,7 +21,6 @@ import PlannerPage from "./pages/PlannerPage";
 import RecipePage from "./pages/RecipePage";
 import { persistor, store } from "./redux/store";
 import PrivateRecipePage from "./pages/PrivateRecipePage";
-import { AnimatedSwitch } from 'react-router-transition';
 
 
 function App() {

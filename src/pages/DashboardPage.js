@@ -3,6 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import { connect } from "react-redux";
 import "../assets/dashboard.css";
 import NavBar from "../components/Navbar";
+import NavBar2 from "../components/Navbar2";
+
 import PrivateRecipeGridViewer from "../components/PrivateRecipeGridViewer";
 import { fetchRecipes } from "../redux/actions";
 import { hideLoader, showLoader } from "../redux/actions/LoaderData";

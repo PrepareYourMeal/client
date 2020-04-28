@@ -17,7 +17,7 @@ const getUserAuthData = () => {
 };
 
 const axiosInstance = axios.create({
-  baseURL: API_BASE_URL,
+  baseURL: 'https://prepareyourmeal-dev-api.prepareyourmeal.rasodu.com',
 }); // this way we don't need to do `${API_BASE_URL}${apiEndPoint}` all the time
 
 export const postGoogleAuthWithTokens = async (accessToken) => {
