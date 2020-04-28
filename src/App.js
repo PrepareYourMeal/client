@@ -1,38 +1,58 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { ToastsContainer, ToastsStore, ToastsContainerPosition } from 'react-toasts';
-import store from './redux';
-import HomePage from './pages/HomePage';
-import FullPageLoader from './containers/FullPageLoader';
-import Header from './containers/Header';
-import Footer from './containers/Footer';
-import BrowseRecipePage from './pages/BrowseRecipePage';
-import RecipePage from './pages/RecipePage';
-import ContactPage from './pages/ContactPage';
-import LoginPage from './pages/SignupPage';
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import { PersistGate } from "redux-persist/integration/react";
+import "./assets/custom.css";
+import "./assets/homepage.css";
+import "./assets/login.css";
+import LoginPage from "./components/Login";
+import PrivateRoute from "./components/PrivateRoute";
+import PublicRoute from "./components/PublicRoute";
+import SignupPage from "./components/SignUp";
+import Footer from "./containers/Footer";
+import FullPageLoader from "./containers/FullPageLoader";
+import BrowseRecipePage from "./pages/BrowseRecipesPage";
+import ContactPage from "./pages/ContactPage";
+import DashboardPage from "./pages/DashboardPage";
+import FavoritesPage from "./pages/FavoritesPage";
+import HomePage from "./pages/HomePage";
+import IngredientsPage from "./pages/IngredientssPage";
+import PlannerPage from "./pages/PlannerPage";
+import RecipePage from "./pages/RecipePage";
+import { persistor, store } from "./redux/store";
+import PrivateRecipePage from "./pages/PrivateRecipePage";
+import { AnimatedSwitch } from 'react-router-transition';
+
 
 function App() {
-    return (
-        <Provider store={store}>
-            <Router>
-                <FullPageLoader />
-                <div id="wrapper">
-                    <Header />
-                    <ToastsContainer store={ToastsStore} position={ToastsContainerPosition.BOTTOM_RIGHT} />
-                    <Switch>
-                        <Route exact path="/home" component={HomePage} />
-                        <Route exact path="/recipes" component={BrowseRecipePage} />
-                        <Route exact path="/recipe" component={RecipePage} />
-                        <Route exact path="/contact" component={ContactPage} />
-                        <Route exact path="/login" component={LoginPage} />
-                        <Route path="*" render={() => <Redirect to="/home" />} />
-                    </Switch>
-                    <Footer />
-                </div>
-            </Router>
-        </Provider>
-    );
+  return (
+    <Provider store={store}>
+      <PersistGate loading={<div></div>} persistor={persistor}>
+        <Router>
+          <FullPageLoader></FullPageLoader>
+          <div id="wrapper">
+            <Switch>              
+              <PublicRoute exact path="/home" component={HomePage} />
+              <PublicRoute exact path="/recipes" component={BrowseRecipePage} />
+              <PublicRoute exact path="/recipe" component={RecipePage} />
+              <PublicRoute exact path="/contact" component={ContactPage} />
+              <PublicRoute exact path="/register" component={SignupPage} />
+              <PublicRoute exact path="/login" component={LoginPage} />
+
+              <PrivateRoute exact path="/favorites" component={FavoritesPage} />
+              <PrivateRoute exact path="/auth/recipe" component={PrivateRecipePage} />
+              <PrivateRoute exact path="/ingredients" component={IngredientsPage} />
+              <PrivateRoute exact path="/planner" component={PlannerPage} />
+              <PrivateRoute exact path="/dashboard" component={DashboardPage} />
+
+              <Route path="*" render={() => <Redirect to="/home" />} />
+            </Switch>
+            <Footer />
+          </div>
+        </Router>
+      </PersistGate>
+    </Provider>
+  );
 }
 
 export default App;

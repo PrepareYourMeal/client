@@ -1216,6 +1216,8 @@ div.sceditor-group:first-child {
     background-color: #fff;
     padding-right: 10px;
     z-index: 5;
+    color: #2F475B;
+    font-style: italic;
     position: relative;
     float: left;
 }
@@ -1581,7 +1583,7 @@ a.button i {
 
 .pagination-next-prev {
     position: relative;
-    top: -36px;
+    top: -66px;
 }
 
 .pagination ul li {
@@ -7328,7 +7330,7 @@ a.print {
     padding: 5px 10px;
     display: inline-block;
     float: right;
-    margin-top: 1px;
+    margin-top: -10px;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
@@ -7338,9 +7340,37 @@ a.print {
 
 a.print:hover {
     background-color: #555;
+    color: white
 }
 
 a.print i {
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+/* Fave Button */
+
+a.fave {
+    background-color: rgb(246, 74, 103);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 1px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+a.fave:hover {
+    background-color: rgb(173, 1, 93);
+    color: white
+}
+
+a.fave i {
     font-size: 14px;
     margin-right: 2px;
 }

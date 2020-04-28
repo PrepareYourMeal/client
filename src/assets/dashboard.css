@@ -1,0 +1,23 @@
+  .show-list-header{
+    max-width: 1600px;
+    margin: 10px auto !important;
+    float: none !important;
+  }
+  .image-card{
+    max-width: 1440px;
+    margin: 10px auto !important;
+    float: none !important;
+  }
+  .food-card{
+    padding: 10px;
+    border-radius: 5px;
+    border-left: rgb(216, 28, 48) solid 5px;
+    max-width: 1440px;
+    margin: 10px auto !important;
+    float: none !important;
+  }
+  .date-label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+  }

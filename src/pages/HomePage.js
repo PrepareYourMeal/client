@@ -6,6 +6,8 @@ import RecipeCarousel from '../components/RecipeCarousel';
 import CategoryList from '../components/CategoryList';
 import RecipesListViewer from '../components/RecipesListViewer';
 import SquareSocialButtons from '../components/SquareSocialButtons';
+import Banner from '../components/HomeBanner';
+import Header from "../containers/Header"
 
 class HomePage extends Component {
     state = {
@@ -64,7 +66,6 @@ class HomePage extends Component {
                 tags: ['Soups'],
                 servings: 4,
                 time: '1 Hr 30 Min',
-                author: 'Sandra Fortin',
                 recipeLink: '/recipes',
             },
         ],
@@ -193,24 +194,12 @@ class HomePage extends Component {
 
         return (
             <>
+            <Header/>
                 <RecipeCarousel recipes={carouselRecipes} />
                 <div className="container" data-component="Main">
                     <RecipesListViewer recipes={latestRecipes} listPageView={4} />
-                    {/* Sidebar */}
                     <div className="four columns">
-                        {/* Search Form */}
-                        <div className="widget search-form">
-                            <nav className="search">
-                                <form action="#" method="get">
-                                    <button type="submit">
-                                        <i className="fa fa-search" />
-                                    </button>
-                                    <input className="search-field" type="text" placeholder="Search for recipes" />
-                                </form>
-                            </nav>
-                            <div className="clearfix" />
-                        </div>
-                        {/* Categories */}
+                       
                         <CategoryList categories={categories} />
                         <SquareSocialButtons links={socialLinks} />
                     </div>

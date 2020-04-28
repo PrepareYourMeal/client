@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Component} from "react";
+import {Link} from "react-router-dom";
+
 
 class Header extends Component {
     state = {};
@@ -11,8 +12,11 @@ class Header extends Component {
                     <div className="three columns">
                         <div id="logo">
                             <h1>
-                                <a href="/">
-                                    <img src="assets/images/Logo.png" alt="StoveOven" />
+                                <a href="/#"
+                                    onClick={
+                                        e => e.preventDefault()
+                                }>
+                                    <img src="assets/images/logo.png" alt="Stove & Oven"/>
                                 </a>
                             </h1>
                         </div>
@@ -31,6 +35,9 @@ class Header extends Component {
                                 </li>
                                 <li>
                                     <Link to="/login">Login</Link>
+                                </li>
+                                <li>
+                                  <a className="login-btn" href="/register">Sign Up</a>
                                 </li>
                             </ul>
                         </nav>

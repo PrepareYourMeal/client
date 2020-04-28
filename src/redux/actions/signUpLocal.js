@@ -1,5 +1,5 @@
 import { postRegisterNewAccount } from '../../services';
-import * as types from '../types';
+import * as types from '../actions/ActionTypes';
 
 const signUpLocal = (username, password) => async dispatch => {
     if (!username) {
@@ -11,11 +11,11 @@ const signUpLocal = (username, password) => async dispatch => {
     }
 
     try {
-        dispatch({ type: types.LOADING, isLoading: true });
+        dispatch({ type: types.SHOW_LOADER, isLoading: true });
         await postRegisterNewAccount(username, password);
-        dispatch({ type: types.LOADING, isLoading: false });
+        dispatch({ type: types.HIDE_LOADER, isLoading: false });
     } catch (err) {
-        dispatch({ type: types.LOADING, isLoading: false });
+        dispatch({ type: types.HIDE_LOADER, isLoading: false });
         throw new Error(`In signUpLocal: Register failed ${err}`);
     }
 

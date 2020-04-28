@@ -1,0 +1,1079 @@
+#LoginSection {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 885.734px;
+    left: -960px;
+    line-height: 22.4px;
+    min-height: 854px;
+    position: relative;
+    right: 960px;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 1920px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 960px 442.859px;
+    transform-origin: 960px 442.867px;
+    caret-color: rgb(64, 72, 81);
+    background: rgb(247, 249, 251) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(64, 72, 81);
+    margin: -48px 0px 0px 950px;
+    outline: rgb(64, 72, 81) none 0px;
+    overflow: auto;
+    padding: 64px 48px 80px;
+}
+
+#LoginSection:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginSection:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginBox {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 741.734px;
+    line-height: 22.4px;
+    max-width: 500px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 500px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 250px 370.859px;
+    transform-origin: 250px 370.867px;
+    caret-color: rgb(64, 72, 81);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(245, 245, 246);
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 662px;
+    outline: rgb(64, 72, 81) none 0px;
+    padding: 56px;
+}
+
+#LoginBox:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginBox:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginHeading {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: NexaBook, Rockwell, Georgia, Times, "Times New Roman", serif;
+    font-kerning: normal;
+    font-size: 38.4px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 53px;
+    line-height: 53.76px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: #2F475B;
+    perspective-origin: 193px 26.5px;
+    transform-origin: 193px 26.5px;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    margin: 0px;
+    outline: #2F475B none 0px;
+}
+
+#LoginHeading:after {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: NexaBook, Rockwell, Georgia, Times, "Times New Roman", serif;
+    font-kerning: normal;
+    font-size: 38.4px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 53.76px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: #2F475B;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    outline: #2F475B none 0px;
+}
+
+#LoginHeading:before {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: NexaBook, Rockwell, Georgia, Times, "Times New Roman", serif;
+    font-kerning: normal;
+    font-size: 38.4px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 53.76px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: #2F475B;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    outline: #2F475B none 0px;
+}
+
+#StartPlanningMessage {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 44px;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 22px;
+    transform-origin: 193px 22px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px 0px 16px;
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#StartPlanningMessage:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#StartPlanningMessage:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Login {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 449.563px;
+    left: 0px;
+    line-height: 22.4px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 224.781px;
+    transform-origin: 193px 224.781px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Login:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Login:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginForm {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 266.781px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 133.391px;
+    transform-origin: 193px 133.391px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px;
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginForm:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginForm:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginEmail {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 87px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 43.5px;
+    transform-origin: 193px 43.5px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginEmail:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(64, 72, 81);
+    display: block;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 0px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 0px;
+    transform-origin: 193px 0px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginEmail:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailSection, #PasswordSection {
+    bottom: 0px;
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 87px;
+    left: 0px;
+    line-height: 22.4px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 43.5px;
+    transform-origin: 193px 43.5px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px 0px 24px;
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailSection:after, #PasswordSection:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailSection:before, #PasswordSection:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailLabel, #PasswordLabel {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    cursor: pointer;
+    display: block;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    height: 22px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 11px;
+    transform-origin: 193px 11px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px 0px 6px;
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailLabel:after, #PasswordLabel:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    cursor: pointer;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#EmailLabel:before, #PasswordLabel:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    cursor: pointer;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#PasswordInput, #EmailInput {
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    line-height: 32px;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    vertical-align: text-top;
+    width: 383px;
+    perspective-origin: 193px 29px;
+    transform-origin: 193px 29px;
+    background: rgb(232, 240, 254) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(216, 218, 220);
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden;
+    padding: 12px;
+    transition: color 0.2s cubic-bezier(0.5, 0, 0.5, 1) 0s, border-color 0.2s cubic-bezier(0.5, 0, 0.5, 1) 0s;
+}
+
+#PasswordInput:after, #EmailInput:after {
+    box-sizing: border-box;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    line-height: 32px;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+}
+
+#LoginPassword {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 87px;
+    left: 0px;
+    line-height: 22.4px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 43.5px;
+    transform-origin: 193px 43.5px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginPassword:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(64, 72, 81);
+    display: block;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 0px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 0px;
+    transform-origin: 193px 0px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#LoginPassword:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#SubmitBtn {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 44.7813px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 22.3906px;
+    transform-origin: 193px 22.3906px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#SubmitBtn:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(64, 72, 81);
+    display: block;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 0px;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 0px;
+    transform-origin: 193px 0px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#SubmitBtn:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Submit {
+    background-position: 50% 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    height: 44.7813px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    white-space: pre;
+    width: 386px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 193px 22.3906px;
+    transform-origin: 193px 22.3906px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: #2F475B linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) no-repeat scroll 50% 0px / 0px 100% padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 4px 4px 4px 4px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 14.4px 24px;
+    transition: background-color 0.133333s cubic-bezier(0.5, 0, 0.5, 1) 0s, background-size 0.133333s cubic-bezier(0.5, 0, 0.5, 1) 0s;
+}
+
+#Submit:after {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    white-space: pre;
+    column-rule-color: rgb(255, 255, 255);
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+#Submit:before {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    white-space: pre;
+    column-rule-color: rgb(255, 255, 255);
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+#Message {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 22px;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 11px;
+    transform-origin: 193px 11px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px 0px 10px;
+    outline: rgb(64, 72, 81) none 0px;
+    padding-top: 60px
+}
+
+#Message:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Message:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Sign {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Sign:after {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#Sign:before {
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(64, 72, 81);
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    outline: rgb(64, 72, 81) none 0px;
+}
+
+#SignUp {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: #2F475B;
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    outline: #2F475B none 0px;
+    transition: color 0.2s cubic-bezier(0.5, 0, 0.5, 1) 0s;
+}
+
+#SignUp:after {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: #2F475B;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    outline: #2F475B none 0px;
+}
+
+#SignUp:before {
+    box-sizing: border-box;
+    color: #2F475B;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    column-rule-color: #2F475B;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    outline: #2F475B none 0px;
+}
+
+.login-form-container {
+    border: 1px solid #9E9E9E;
+    border-radius: 0.5rem;
+    min-width: 50rem;
+    background-color: white;
+}
+
+.google-login-btn {
+    font-size: 1rem !important;
+    margin-left: 100px;
+}
+
+.google-login-btn div {
+        padding: 5px !important;
+        margin-right: 5px !important;
+    }

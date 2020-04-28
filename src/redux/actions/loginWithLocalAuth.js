@@ -1,5 +1,5 @@
 import { postLocalLogIn } from '../../services';
-import * as types from '../types';
+import * as types from './ActionTypes';
 
 const loginWithLocalAuth = (username, password) => async dispatch => {
     if (!username || !password) {

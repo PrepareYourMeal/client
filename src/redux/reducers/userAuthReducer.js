@@ -1,8 +1,8 @@
-import * as types from '../types';
+import * as types from '../actions/ActionTypes';
 
 const INITIAL_STATE = { googleUser: null, localUser: null, isAuthenticated: false };
 
-const userAuthReducer = (state = INITIAL_STATE, action) => {
+export const userAuthReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case types.GOOGLE_AUTH:
             return { ...state, googleUser: action.user, isAuthenticated: true };
@@ -15,4 +15,3 @@ const userAuthReducer = (state = INITIAL_STATE, action) => {
     }
 };
 
-export default userAuthReducer;

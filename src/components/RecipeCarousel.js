@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import CarouselScripts from '../libraryScripts/carouselScripts';
+import CarouselScripts from '../library-scripts/CarouselScript';
 
 class RecipeCarousel extends Component {
     state = {};

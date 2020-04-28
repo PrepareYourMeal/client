@@ -1,17 +1,10 @@
 // import { postGoogleAuthWithTokens } from '@frontend/services';
-import * as types from '../types';
+import * as types from './ActionTypes';
 
 const loginWithGoogle = accessToken => async dispatch => {
     if (!accessToken) {
         throw new Error('Missing the param accessToken.');
     }
-
-    // let logedInUser;
-    // try {
-    //     logedInUser = await postGoogleAuthWithTokens(accessToken);
-    // } catch (err) {
-    //     console.error(err);
-    // }
 
     dispatch({
         type: types.GOOGLE_AUTH,

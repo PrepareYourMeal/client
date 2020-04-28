@@ -1,0 +1,160 @@
+.no-results-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	margin-bottom: 100px;
+}
+
+.login-btn {
+	background-color: #F04B4C;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 8px 30px;
+	font-weight: bold;
+
+}
+
+.login-btn:hover {
+	box-shadow: 5px 5px 12px rgba(0, 0, 0, 0);
+	color: white !important;
+	/* transition: 0.4s; */
+}
+
+.login-btn-wrapper {
+	margin-top: 2px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.added-to-fav, .add-to-fav {
+    background: #e23f40;
+    float: right;
+    margin: -5px 2px 0px 0px;
+    padding: 6px 12px;
+}
+
+.added-to-fav, .add-to-fav:hover {
+	background: #740101;
+	color: white;
+    float: right;
+    margin: -5px 2px 0px 0px;
+    padding: 6px 12px;
+}
+
+.plannerbtn {
+    background: #8dc63f;
+    float: right;
+    margin: -5px 2px 0px 0px;
+    padding: 6px 12px;
+}
+
+.plannerbtn:hover {
+	background: #4b7e03;
+	color: white;
+    float: right;
+    margin: -5px 2px 0px 0px;
+    padding: 6px 12px;
+}
+
+.switch-wrapper {
+	position: relative;
+  }
+
+#private-grip-pagination-wrapper .pagination-next-prev {
+	top: -65px;
+}
+
+.card-title {
+	height: 120px;
+}
+
+.ant-card-bordered {
+	margin-bottom: 20px!important;
+}
+
+.remove-favourite-wrappaer {
+	color: red;
+}
+
+.add-favourite-wrappaer {
+	color: #fc0025;
+}
+
+.private-header {
+	padding: 3.9rem 15rem 1.9rem 15rem;
+}
+
+#planner-modal-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 2.2rem 0;
+	text-align: center;
+}
+
+#planner-modal-calender-wrapper {
+	margin-top: 1.2rem;
+}
+
+#planner-modal-button-wrapper {
+	margin-top: 2rem;
+}
+
+#planner-modal-button-wrapper #cancel-btn {
+	background-color: rgba(207, 207, 207, 0);
+	border: none;
+	margin-right: 1rem;
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+}
+
+#planner-modal-button-wrapper #save-btn {
+	background-color: rgb(37, 77, 255);
+	border: none;
+	color: white;
+	cursor: pointer;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+	margin-left: 1rem;
+	padding: 0.5rem 1.5rem
+}
+
+#planner-modal-button-wrapper #save-btn:hover {
+	background-color: rgb(37, 77, 255);
+	border: none;
+	color: white;
+	cursor: pointer;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.013);
+	margin-left: 1rem;
+	padding: 0.5rem 1.5rem
+}
+
+#planner-modal-loader {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.disabled-btn {
+	background-color: rgb(100, 100, 100)!important;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.013)!important;
+}
+
+.added-to-fav, .add-to-fav, .plannerbtn {
+	color: white!important;
+}
+
+.rrd-links {
+	color: unset!important;
+}

@@ -12,7 +12,7 @@
 .rsDefaultInv .rsThumb.rsNavSelected,
 .rsDefault .rsThumb.rsNavSelected,
 .ingredients input[type=checkbox]:checked + label:before {
-	border-color: #2F475B;
+	border-color: white;
 }
 
 
