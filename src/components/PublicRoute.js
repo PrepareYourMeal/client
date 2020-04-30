@@ -1,16 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useSelector } from "react-redux";
-import { Route, Redirect } from "react-router-dom";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useSelector } from 'react-redux';
+import { Route, Redirect } from 'react-router-dom';
 
 export default function PublicRoute({ component, ...rest }) {
-  const { isAuthenticated } = useSelector((state) => state.user);
-  return !isAuthenticated ? (
-    <Route {...rest} component={component} />
-  ) : (
-    <Redirect to="/dashboard" />
-  );
+    const { isAuthenticated } = useSelector(state => state.user);
+    return !isAuthenticated ? <Route {...rest} component={component} /> : <Redirect to="/dashboard" />;
 }
 PublicRoute.propTypes = {
-  component: PropTypes.elementType.isRequired,
+    component: PropTypes.elementType.isRequired,
 };

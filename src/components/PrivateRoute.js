@@ -10,4 +10,3 @@ export default function PrivateRoute({ component, ...rest }) {
 PrivateRoute.propTypes = {
     component: PropTypes.elementType.isRequired,
 };
-
