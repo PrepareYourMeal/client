@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import '../assets/login.css';
-import { Link } from 'react-router-dom';
 import RecipeCarousel from '../components/RecipeCarousel';
-import CategoryList from '../components/CategoryList';
-import RecipesListViewer from '../components/RecipesListViewer';
-import SquareSocialButtons from '../components/SquareSocialButtons';
 import Banner from '../components/HomeBanner';
 import Header from "../containers/Header"
+import AboutHeader from "../components/AboutHeader"
+import AboutUs from "../components/AboutUs"
 
 class HomePage extends Component {
     state = {
@@ -195,14 +193,18 @@ class HomePage extends Component {
         return (
             <>
             <Header/>
+
                 <RecipeCarousel recipes={carouselRecipes} />
+                <AboutHeader/>
+                <Banner/>
+
                 <div className="container" data-component="Main">
-                    <RecipesListViewer recipes={latestRecipes} listPageView={4} />
-                    <div className="four columns">
+                    {/* <RecipesListViewer recipes={latestRecipes} listPageView={4} /> */}
+                    {/* <div className="four columns">
                        
                         <CategoryList categories={categories} />
                         <SquareSocialButtons links={socialLinks} />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="margin-top-5" />
             </>

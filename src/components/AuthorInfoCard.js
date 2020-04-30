@@ -8,7 +8,7 @@ class AuthorInfo extends Component {
     return (
       <div className="widget">
         <div className="author-box">
-          <span className="title">Author</span>
+          <span className="title">A Note From: </span>
           <span className="name">
             {name}
           </span>

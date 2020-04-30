@@ -17,12 +17,7 @@ class ContactPage extends Component {
           </section>
 
           <div className="container">
-            <div className="sixteen columns">
-              <div className="image-with-caption contact">
-                <img className="rsImg" src="assets/images/contact.jpg" alt />
-                <span>Questions?</span>
-              </div>
-            </div>
+            
           </div>
           <div className="margin-top-10" />
           <div className="container">

@@ -51,7 +51,7 @@ class Footer extends Component {
               </ul>
             </div>
             <div className="three columns">
-              <h3 className="headline footer">Recipes</h3>
+              <h3 className="headline footer">Info</h3>
               <span className="line" />
               <div className="clearfix" />
               <ul className="footer-links">
@@ -60,6 +60,9 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a href="submit-recipe.html">Submit Recipe</a>
+                </li>
+                <li>
+                  <a href="/contact">Contact Us</a>
                 </li>
               </ul>
             </div>

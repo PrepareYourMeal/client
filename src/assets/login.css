@@ -98,6 +98,60 @@
     outline: rgb(64, 72, 81) none 0px;
     padding: 56px;
 }
+#SignUpBox {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    box-sizing: border-box;
+    color: rgb(64, 72, 81);
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 741.734px;
+    line-height: 22.4px;
+    max-width: 500px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 500px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 250px 370.859px;
+    transform-origin: 250px 370.867px;
+    caret-color: rgb(64, 72, 81);
+    background: #f04b4c none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(245, 245, 246);
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 662px;
+    outline: rgb(64, 72, 81) none 0px;
+    padding: 56px;
+}
+
+#SignUpHeading {
+    box-sizing: border-box;
+    color: white;
+    font-family: NexaBook, Rockwell, Georgia, Times, "Times New Roman", serif;
+    font-kerning: normal;
+    font-size: 38.4px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 53px;
+    line-height: 53.76px;
+    text-align: center;
+    text-decoration: none solid #2F475B;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: #2F475B;
+    perspective-origin: 193px 26.5px;
+    transform-origin: 193px 26.5px;
+    caret-color: #2F475B;
+    border: 0px none #2F475B;
+    margin: 0px;
+    outline: #2F475B none 0px;
+}
 
 #LoginBox:after {
     box-sizing: border-box;
@@ -202,6 +256,32 @@
     caret-color: #2F475B;
     border: 0px none #2F475B;
     outline: #2F475B none 0px;
+}
+
+
+#SignUpStartPlanningMessage {
+    box-sizing: border-box;
+    color: white;
+    font-family: Muli, "Helvetica Neue", Helmet, Freesans, sans-serif;
+    font-kerning: normal;
+    font-size: 16px;
+    font-variant: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+    height: 44px;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none solid rgb(64, 72, 81);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: 386px;
+    column-rule-color: rgb(64, 72, 81);
+    perspective-origin: 193px 22px;
+    transform-origin: 193px 22px;
+    caret-color: rgb(64, 72, 81);
+    border: 0px none rgb(64, 72, 81);
+    margin: 0px 0px 16px;
+    outline: rgb(64, 72, 81) none 0px;
 }
 
 #StartPlanningMessage {
@@ -626,7 +706,7 @@
     width: 383px;
     perspective-origin: 193px 29px;
     transform-origin: 193px 29px;
-    background: rgb(232, 240, 254) none repeat scroll 0% 0% / auto padding-box border-box;
+    background: white none repeat scroll 0% 0% / auto padding-box border-box;
     border: 1px solid rgb(216, 218, 220);
     border-radius: 4px 4px 4px 4px;
     overflow: hidden;

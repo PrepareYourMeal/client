@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "react-multi-carousel/lib/styles.css";
 import { connect } from "react-redux";
 import "../assets/dashboard.css";
-import NavBar from "../components/Navbar";
+import AboutHeader from "../components/AboutHeader";
 import NavBar2 from "../components/Navbar2";
 
 import PrivateRecipeGridViewer from "../components/PrivateRecipeGridViewer";
@@ -118,10 +118,11 @@ class DashboardPage extends Component {
 
     return (
       <React.Fragment>
-        <NavBar {...this.props} />
+        <NavBar2 {...this.props} />
         <div className="private-header">
-          <h1>All recipes</h1>
+          <h1>Available Recipes</h1>
         </div>
+        {/* <AboutHeader/> */}
         <PrivateRecipeGridViewer
           recipes={recipes}
           listPageView={8}

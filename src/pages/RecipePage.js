@@ -16,7 +16,7 @@ class RecipePage extends Component {
             name: (<>
                 Stove & Oven
             </>),
-            profileImage: "assets/images/author-photo.png",
+            profileImage: "assets/images/plate.png",
             email: "hello@stoveandoven.com",
             introduction: `We strive to find the best and most delicious recipes for you and your family!`
         },

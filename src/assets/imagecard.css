@@ -7,3 +7,13 @@
     font-size: 15px;
     margin-bottom: 10px;
 }
+
+.food-card {
+    padding: 10px;
+    border-radius: 5px;
+    border-left: rgb(216, 28, 48) solid 5px;
+    max-width: 1440px;
+    margin: 10px auto !important;
+    float: none !important;
+    background-color: white
+}

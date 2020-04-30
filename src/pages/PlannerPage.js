@@ -1,6 +1,6 @@
 import DailyPlanner from "../components/PlannerSelect";
 import React, { Component } from "react";
-import NavBar from "../components/Navbar";
+import NavBar from "../components/Navbar2";
 import {
   getUser,
   removeRecipeFromPlanner,
@@ -83,6 +83,7 @@ class PlannerSelect extends Component {
           plannerDays={plannerDays}
           removePlanner={this._removePlanner}
         />
+        <br/>
       </React.Fragment>
     );
   }

@@ -31,12 +31,12 @@ export default function SignUp() {
                     <Header/>
 
         <section id="LoginSection">
-            <div id="LoginBox">
-                <h1 id="LoginHeading">
+            <div id="SignUpBox">
+                <h1 id="SignUpHeading">
                     Join the Family!
                 </h1>
                 <br/>
-                <p id="StartPlanningMessage">
+                <p id="SignUpStartPlanningMessage">
                     Lets start planning today!.
                 </p>
                 <div id="Login">
@@ -60,6 +60,7 @@ export default function SignUp() {
                               </FormGroup>
                               </div>
                         </div>
+                        <br/>
                         <div id="LoginPassword">
                             <div id="PasswordSection">
                             <FormGroup>
@@ -72,6 +73,21 @@ export default function SignUp() {
                                     value={formData.password}
                                     onChange={e => setFormData({ ...formData, [e.target.name]: e.target.value })}
                                     required
+                                />
+                               </FormGroup>
+                            </div>
+                        </div>
+<br/>
+                        <div id="LoginPassword">
+                            <div id="PasswordSection">
+                            <FormGroup>
+
+                            <Label for="Password" id="PasswordLabel">Confirm Password</Label>
+                                <Input
+                                    type="password"
+                                    id="PasswordInput"
+                                    name="confirm_password"
+                                    
                                 />
                                </FormGroup>
                             </div>

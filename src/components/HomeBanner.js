@@ -1,50 +1,115 @@
 import React, {Component} from "react";
+import "../assets/homepage.css";
 
 class HomeBanner extends Component {
     state = {};
     render() {
-        const {name, profileImage, email, introduction} = this.props;
 
         return (
-        
-        <div class="jsx-2228371263 grid-container">
-            <div class="sc-bdVaJa itryXm">
-                <section aria-label="three steps" id="three-steps" role="section" class="jsx-1201281862">
-                    <p aria-hidden="true" class="jsx-4164099341 jsx-2085888330 jsx-2085888330 jsx-1324842411 ">Green Chef delivers organic ingredients and easy recipes to cook incredible meals.</p>
-                    <h3 class="jsx-1542136160 jsx-2085888330 jsx-2085888330 jsx-454027488 ">Dinner Is Just 3 Steps Away</h3>
-                    <div class="jsx-2589393665 grid-container">
-                        <div class="sc-bdVaJa itryXm">
-                            <div aria-label="three steps" role="group" class="sc-bwzfXH FqmtD">
-                                <div aria-label="step 1" role="figure" class="sc-htpNat eqaQrK">
-                                    <div class="jsx-801727242 step">
-                                        <img alt="Choose" src="https://images.greenchef.com/greenchef-assets/icons/2019-12-10/powder-choose.svg" class="jsx-1331207374"/>
-                                        <h1 class="jsx-2684974212 jsx-2085888330 jsx-2085888330 jsx-729095629 ">Choose</h1>
-                                        <p class="jsx-4164099341 jsx-2085888330 jsx-2085888330 jsx-1324842411 ">Choose from our wide variety of deliciously clean meal plans at manageable prices, with options to feed two people or a family of four.</p>
-                                    </div>
+
+            <main id="Banner_Main">
+                <div id="DIV_1">
+                    <section id="SECTION_2">
+                        <header id="HEADER_3">
+                            <h1 id="H1_4">
+                                Some of our Favorites!
+                            </h1>
+
+                            <div id="DIV_21">
+                                <span id="SPAN_22">
+                                    <a id="A_23"></a>
+                                </span>
+
+                                <div id="DIV_29">
+                                    <ul id="UL_30">
+									<li id="LI_47">
+                                            <a href="#" id="A_48"></a>
+                                            <article id="ARTICLE_49">
+                                                <div id="DIV_50">
+                                                    <img alt="" src="https://spoonacular.com/recipeImages/779276-556x370.jpg" id="IMG_51"/>
+                                                </div>
+                                                <div id="DIV_52">
+                                                    <h1 id="H1_53">
+													Overeasy Egg Sandwich
+
+                                                    </h1>
+                                                    <p id="P_54">
+                                                        This delicious breakfast is good in the morning or at night!
+                                                    </p>
+                                                </div>
+                                            </article>
+                                        </li>
+                                        <li id="LI_47">
+                                            <a href="#" id="A_48"></a>
+                                            <article id="ARTICLE_49">
+                                                <div id="DIV_50">
+                                                    <img alt="" src="https://spoonacular.com/recipeImages/195767-556x370.jpg" id="IMG_51"/>
+                                                </div>
+                                                <div id="DIV_52">
+                                                    <h1 id="H1_53">
+                                                        Korean Fried Wings
+                                                    </h1>
+                                                    <p id="P_54">
+                                                       Little wings with lots of spice and lots of flavor!
+                                                    </p>
+                                                </div>
+                                            </article>
+                                        </li>
+                                        <li id="LI_47">
+                                            <a href="#" id="A_48"></a>
+                                            <article id="ARTICLE_49">
+                                                <div id="DIV_50">
+                                                    <img alt="" src="https://spoonacular.com/recipeImages/248682-556x370.jpg" id="IMG_51"/>
+                                                </div>
+                                                <div id="DIV_52">
+                                                    <h1 id="H1_53">
+                                                    Southwestern Chili
+
+                                                    </h1>
+                                                    <p id="P_54">
+                                                        Hearty and delicious chili will satisfy a family of any size!
+                                                    </p>
+                                                </div>
+                                            </article>
+                                        </li>
+                                        <li id="LI_55">
+                                            <a href="#" id="A_56"></a>
+                                            <article id="ARTICLE_57">
+                                                <div id="DIV_58">
+                                                    <img alt="" src="https://spoonacular.com/recipeImages/642605-556x370.jpg" id="IMG_59"/>
+                                                </div>
+                                                <div id="DIV_60">
+                                                    <h1 id="H1_53">
+                                                    Farro With Mushrooms
+
+                                                    </h1>
+                                                    <p id="P_62">
+                                                        Light, delicious and healthy. This meal is great for one or many!
+                                                    </p>
+                                                </div>
+                                            </article>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div aria-label="step 2" role="figure" class="sc-htpNat eqaQrK">
-                                    <div class="jsx-801727242 step">
-                                        <img alt="Cook" src="https://images.greenchef.com/greenchef-assets/icons/2019-12-10/powder-cook.svg" class="jsx-3840755099"/>
-                                        <h1 class="jsx-2684974212 jsx-2085888330 jsx-2085888330 jsx-729095629 ">Cook</h1>
-                                        <p class="jsx-4164099341 jsx-2085888330 jsx-2085888330 jsx-1324842411 ">Our premium ingredients come pre-measured and prepped, saving you time. All you have to do is follow easy step-by-step instructions with photos.</p>
-                                    </div>
-                                </div>
-                                <div aria-label="step 3" role="figure" class="sc-htpNat eqaQrK">
-                                    <div class="jsx-801727242 step">
-                                        <img alt="Enjoy" src="https://images.greenchef.com/greenchef-assets/icons/2019-12-10/powder-enjoy.svg" class="jsx-2621403108"/>
-                                        <h1 class="jsx-2684974212 jsx-2085888330 jsx-2085888330 jsx-729095629 ">Enjoy</h1>
-                                        <p class="jsx-4164099341 jsx-2085888330 jsx-2085888330 jsx-1324842411 ">Go ahead, pat yourself on the back. You'll be amazed by the tasty, restaurant-worthy meal you cooked. New recipes every week!</p>
-                                    </div>
+                                <span id="SPAN_195">
+                                    <a id="A_196"></a>
+                                </span>
+                                <div id="DIV_197">
+                                    <svg id="svg_198">
+                                        <title id="title_199">
+                                            Right Caret
+                                        </title>
+                                        <g id="g_200">
+                                            <path id="path_201"></path>
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="jsx-1201281862 start-cooking">
-                        <a class="jsx-3718205992 jsx-3258146766 jsx-863172528 jsx-2085888330" href="/sign-up/welcome">Start Cooking</a>
-                    </div>
-                </section>
-            </div>
-        </div>
+                            <a href="/recipes" id="ViewRecipes_Btn">View More</a>
+                        </header>
+                    </section>
+                </div>
+            </main>
         );
     }
 }

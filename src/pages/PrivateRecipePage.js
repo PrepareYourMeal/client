@@ -7,7 +7,7 @@ import { extractQueryParams, sleepTime, deepClone } from "../helper-methods";
 import { connect } from "react-redux";
 import { fetchRecipes } from "../redux/actions/RecipesData";
 import { hideLoader, showLoader } from "../redux/actions/LoaderData";
-import NavBar from "../components/Navbar";
+import NavBar2 from "../components/Navbar2";
 
 import axios from "axios";
 import {
@@ -340,7 +340,7 @@ class PrivateRecipePage extends Component {
             isVisible={plannerModal.isVisible}
             dismissModal={this._dismissPlanerModal}
           />
-          <NavBar {...this.props} />
+          <NavBar2 {...this.props} />
           <div>
             <div className="recipeBackground">
               <img src="../../assets/images/carousel/Recipe-Page.jpg" alt />

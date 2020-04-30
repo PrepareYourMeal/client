@@ -1213,7 +1213,7 @@ div.sceditor-group:first-child {
 
 .headline {
     font-size: 22px;
-    background-color: #fff;
+    background-color: #F7F9FB;
     padding-right: 10px;
     z-index: 5;
     color: #2F475B;
@@ -1284,7 +1284,7 @@ table.basic-table td {
 ------------------------------------- */
 
 #titlebar {
-    background-color: #f6f6f6;
+    background-color: #dbd9d9;
     min-height: 88px;
     margin: 0 0 40px 0;
 }
@@ -1447,7 +1447,7 @@ table.basic-table td {
 }
 
 #contact fieldset div input {
-    width: 240px;
+    width: 940px;
 }
 
 #contact textarea {
@@ -1669,7 +1669,7 @@ a.button i {
 /* Advanced Search Container */
 
 .advanced-search-container {
-    background-color: #f6f6f6;
+    background-color: #dbd9d9;
     padding: 0 0 33px 0;
 }
 
@@ -4509,7 +4509,7 @@ img.rsImg {
 .rsDefaultInv .rsSlide,
 .rsDefaultInv .rsVideoFrameHolder,
 .rsDefaultInv .rsThumbs {
-    background: #fff;
+    background: #f7f9fb;
 }
 
 #homeSlider .rsThumbs {
@@ -4527,7 +4527,7 @@ img.rsImg {
     display: block;
     width: 4px;
     height: 100%;
-    background: #fff;
+    background: #f7f9fb;
     position: absolute;
     left: 0;
 }
@@ -4901,7 +4901,7 @@ a.blockTitle:hover {
 }
 
 .recipe-box-content {
-    background-color: #f8f8f8;
+    background-color: #e3e5e8;
     padding: 20px 25px;
 }
 
@@ -4917,7 +4917,7 @@ a.blockTitle:hover {
 .recipe-box-content h3 a {
     color: #606060;
     display: block;
-    line-height: 26px;
+    line-height: 18px;
 }
 
 .recipe-meta {
@@ -4939,7 +4939,7 @@ a.blockTitle:hover {
 }
 
 .recipe-meta a {
-    color: #909090;
+    color: red;
 }
 
 .recipe-box-content .rating {
@@ -5159,6 +5159,7 @@ a.blockTitle:hover {
     border: 1px solid #e8e8e8;
     padding: 28px 25px;
     position: relative;
+    background-color: white
 }
 
 .author-box span {
@@ -5934,7 +5935,7 @@ ul.share-post li a.rate-recipe {
 ---------------------------------------------------------------------- */
 
 #footer {
-    background: #EAEEF1;
+    background: #F7F9FB;
     color: #b8b8b8;
     padding: 35px 0 40px 0;
     margin: 0;
@@ -5944,7 +5945,7 @@ ul.share-post li a.rate-recipe {
     font-size: 16px;
     font-weight: 700;
     color: #F04B4C;
-    background-color: #EAEEF1;
+    background-color: #7F9FB;
     text-transform: none;
 }
 
@@ -6018,7 +6019,7 @@ input.newsletter {
     width: 85%;
     padding: 11px 16px;
     line-height: 18px;
-    height: 20px;
+    height: 45px;
     background-color: #3a3a3a;
     border: 1px solid #474747;
     -webkit-transition: all 0.2s ease-in-out;
@@ -7298,7 +7299,7 @@ screen and (max-height: 300px) {
 ------------------------------------- */
 
 .recipe-details {
-    background-color: #f8f8f8;
+    background-color: white;
     padding: 20px 23px 20px 35px;
 }
 
